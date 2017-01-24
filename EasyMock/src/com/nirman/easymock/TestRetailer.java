@@ -9,7 +9,10 @@ public class TestRetailer {
 
 	// Without any mocks
 	@Test
+	
+	
 	public void testGetPriceForProduct() throws Exception {
+	System.out.println("Hello");
 		Customer customer = new Customer();
 		Retailer retailer = new Retailer();
 		customer.setRetailer(retailer);
