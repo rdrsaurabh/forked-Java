@@ -6,6 +6,7 @@ public class Customer {
 	Retailer retailer;
 
 	public int getProductPrice(String productId) throws Exception{
+		System.out.println("Hello world");
 		int price = retailer.getPriceForProduct(productId);
 		return price;
 	}
