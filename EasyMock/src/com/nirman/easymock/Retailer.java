@@ -7,6 +7,7 @@ public class Retailer {
 	public int getPriceForProduct(String productId) throws Exception {
 		int price;
 		if (productId.equals("101")) {
+			System.out.println("Hello how are you");
 			price = getPrice(100);
 		} else if (productId.equals("102")) {
 			price = getPrice(200);
